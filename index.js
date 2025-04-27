@@ -8,7 +8,7 @@ const cors = require("cors");
 app.use(cors());
 app.use(bodyParser.json());
 app.use(express.json());
-const port = process.env.port;
+const port = process.env.port || 8000;
 
 //mongodb+srv://lightlife908:lifelight0011@cluster0.3dnyipx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 //mongodb://127.0.0.1:27017/noteApp
